@@ -5,71 +5,177 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>A personal portfolio</title>
+        <title>Stylish Portfolio - Start Bootstrap Template</title>
+        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body>
-        <header>
-            <h1 class="site-heading text-center text-faded d-none d-lg-block">
-                <span class="site-heading-upper text-primary mb-3">Hello and welcome to the personal portfolio of</span>
-                <span class="site-heading-lower text-color">Razan Yakoub</span>
-            </h1>
-        </header>
+    <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="portfolio.html">Portfolio</a></li>
-                    </ul>
-                </div>
-            </div>
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Razan Yakoub</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">About me</a></li>
+                <li class="sidebar-nav-item"><a href="#knowledge">Knowledge</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="#education">Education</a></li>
+            </ul>
         </nav>
-        <!--About me-->
-        <section class="page-section cta">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">About me</span>
-                            </h2>
-                            <p class="mb-0">I am a 19 years old student at NTI high school in Uppsala. I am studying a studying a technical fourth year to beome a high-school engineer in IT. </p>
-                        </div>
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Razan Yakoub</h1>
+                <h3 class="mb-5 text-color"><em>A software developer</em></h3>
+                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>About me</h2>
+                        <p class="lead mb-5">
+                            I am a 19 years student at NTI-Gymnasiet where I am going a technical fourth year specializing in software developing. As a person I am 
+                        </p>
+                        <a class="btn btn-primary btn-xl" href="#knowledge">My knowledge</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!--My knowledge-->
-        <section class="page-section cta">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">My Knowledge</span>
-                            </h2>
-                           
-                        </div>
+        <!-- Knowledge-->
+        <section class="content-section bg-primary text-white text-center" id="knowledge">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h3 class="text-secondary mb-0">My knowledge</h3>
+                    <h2 class="mb-5">I have expiernece in </h2>
+                </div>
+                <!--expiernse 1-->
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">  
+                        <span class="service-icon rounded-circle mx-auto mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1D809F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                                <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                              </svg>
+                        </span>
+                        <h4><strong>HTML</strong></h4>
+                    </div>
+                     <!--expiernse 2-->
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-css3" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1D809F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                                <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                              </svg>
+                        </span>
+                        <h4><strong>CSS</strong></h4>
+                    </div>
+                     <!--expiernse 3-->
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1D809F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                                <path d="M7.5 8h3v8l-2 -1" />
+                                <path d="M16.5 8h-2.5a0.5 .5 0 0 0 -.5 .5v3a0.5 .5 0 0 0 .5 .5h1.423a0.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5" />
+                              </svg>
+                        </span>
+                        <h4><strong>JS</strong></h4>
+                    </div>
+                    <!--expiernse 3-->
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1D809F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <line x1="5" y1="9" x2="19" y2="9" />
+                                <line x1="5" y1="15" x2="19" y2="15" />
+                                <line x1="11" y1="4" x2="7" y2="20" />
+                                <line x1="17" y1="4" x2="13" y2="20" />
+                              </svg>
+                        </span>
+                        <h4><strong>C#</strong></h4>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Footer-->
-        <footer class="footer text-faded text-center py-5">
-            
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://razanyakoub.github.io/florist-celeber-handsOff/">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Website</div>
+                                    <p class="mb-0">A website for a flower company</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                        </a>   
+                                <a href="https://github.com/RazanYakoub/florist-celeber-handsOff">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1D809F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                    </svg>
+                                </a>
+                    </div>
+                </div>  
+            </div>  
+        </section>
+        <!-- Education-->
+        <section class="content-section bg-primary text-white" id="education">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">Education</h2>
+                <div class="twoColumns">
+                   <div>
+                       <h4 style="color: black;">High school</h4>
+                       <h6>Teknikprogrammet-IT </h6>
+                       <h6>Fyrisskolan </h6>
+                       <h6>2018-2020 </h6>
+                   </div>
+                <div>
+                    <h4 style="color: black;">Further Education</h4>
+                    <h6>High school engeneer-Software developer</h6>
+                    <h6>NTI-Gymnasiet</h6>
+                    <h6>2020-present</h6>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://instagram.com/razanyakob"><i class="icon-social-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://github.com/RazanYakoub"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>
+            </div>
         </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
 </html>
